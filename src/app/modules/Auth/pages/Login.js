@@ -23,7 +23,6 @@ const initialValues = {
 };
 
 function Login(props) {
-  console.log('props : ', props)
   const { intl } = props;
   const [loading, setLoading] = useState(false);
   const LoginSchema = Yup.object().shape({
