@@ -31,7 +31,7 @@ export default function BasePage() {
     <Suspense fallback={<LayoutSplashScreen />}>
       <Switch>
         {
-          /* Redirect from root URL to /dashboard. */
+          /* Redirect from root URL to /home. */
           <Redirect exact from="/" to="/home" />
         }
         <Route path="/home" component={Home} />
